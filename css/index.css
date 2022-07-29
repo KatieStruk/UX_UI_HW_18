@@ -1,0 +1,179 @@
+/* Font Styling */
+h1 {font-family: 'Anton', sans-serif;
+    font-size: 65px;}
+h2{font-family: 'Anton', sans-serif;
+    font-size: 50px;}
+h3{font-family: 'Anton', sans-serif;
+    font-size: 33px;}
+p{font-family: 'Montserrat', sans-serif;
+    font-size: 16px;}
+li {font-family: 'Montserrat', sans-serif;}
+a{font-family: 'Montserrat', sans-serif;
+    font-size: 16px;}
+
+/* Navigation */
+#navBar {
+    display:inline-flex;
+    flex-direction: row;
+    box-shadow: 0 8px 8px 0 rgba(165, 165, 165, 0.24);
+    width: 100%;
+    padding: 0%;
+}
+.navigation {
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content:flex-end;
+    margin: 0px 15px 0px 100px;
+}
+.navigation p {
+    cursor: pointer;
+    padding: 2%;
+}
+.navigation a {
+    color:black;
+    text-decoration:none;
+}
+.navigation a:hover {
+    text-decoration:underline
+}
+.logo{
+    width:205px;
+    height:30px;
+    padding: 20px;
+    text-align:center;
+    cursor: pointer;
+    margin:auto;
+}
+#buttonTop {
+    background-color:#FFA927;
+    border: none;
+    Color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    border-radius: 8px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#buttonTop:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24);
+    background-color:#E38D0B;
+    cursor: pointer;
+}
+
+
+/* Body */
+#heroImg {
+    margin: 0px 10%;
+    display: grid;
+    min-height: 300px;
+    height: 60vh;
+    padding: 5%;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+  "content heroImage";
+}
+.heroContent{
+    grid-area: content;
+    padding: 3%;
+}
+.heroImage {
+    grid-area:heroImage;
+    align-items:center;
+    width:100%;
+    display:block;
+}
+
+/* My Work */
+.title{
+    text-align: center;
+}
+.workGrid {
+    margin: 50px 50px;
+    row-gap: 30px;
+    display:grid;
+    align-items:center;
+    justify-content: center;
+    align-content:start;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "imgAikikai textAikikai"
+    "textEdu imgEdu"
+    "imgWeBoard textWeBoard"
+}
+
+#imgAikikai {
+    grid-area:imgAikikai;
+}
+#textAikikai {
+    grid-area:textAikikai;
+    text-align:left;
+    padding:20px
+}
+#textEdu {
+    grid-area:textEdu;
+    text-align:left;
+    padding:20px
+}
+#imgEdu{
+    grid-area:imgEdu;
+    
+}
+#imgWeBoard{
+    grid-area:imgWeBoard;
+}
+#textWeBoard{
+    grid-area:textWeBoard;
+    text-align:left;
+    padding:20px
+}
+
+.workImages {
+    object-fit:cover;
+    width: 100%;
+    max-height:100%;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #736094;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    display:inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+.block {
+    display:block;
+    cursor: pointer;
+    color:white;
+}
+.blockTitle {
+    display:block;
+    color:white;
+    text-decoration: underline;
+}
+.block a{
+    color:white;
+    text-decoration:none;
+}
+.block a:hover {
+    text-decoration:underline;
+}
+.copyright {
+    font-size: 12px;
+}
+ul {
+    width: 50%;
+    margin-left:auto;
+}
