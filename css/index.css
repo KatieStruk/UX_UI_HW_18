@@ -189,6 +189,10 @@ hr {
     grid-area:meText;
 }
 
+#mario {
+    height: 50px;
+
+}
 .skillsGrid {
     margin: 50px 200px;
     column-gap: 100px;
@@ -222,16 +226,25 @@ hr {
 
 .skillsListGrid {
     display:grid;
-    align-items:center;
-    justify-content: center;
-    grid-template-columns:1fr 1fr 1fr;
+    margin: 50px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "skillsList skillsList skillsList"
+    "skillsList1 skillsList2 skillsList3"
 }
-
-.skillsList {
-    grid-area:skillsList;
+#skillsList1 {
+    grid-area:skillsList1;
     text-align: left;
+    align-content:end;
+}
+#skillsList2 {
+    grid-area:skillsList2;
+    text-align: left;
+    align-content:end;
+}
+#skillsList3 {
+    grid-area:skillsList3;
+    text-align: left;
+    align-content:start;
 }
 
 
