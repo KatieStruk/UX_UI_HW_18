@@ -341,7 +341,46 @@ hr {
     padding-bottom: 100px;
 }
 
-
+.alignCaseStudy {
+    margin:0px 15%;
+}
+.caseStudyImg {
+    width:75%
+}
+#goalsGrid{
+    display:grid;
+    column-gap: 20px;
+    row-gap:20px;
+    grid-template-rows: 175px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "majorGoal majorGoal majorGoal"
+    "userFriendlyGoal easyToMaintainGoal differentiateGoal"
+}
+#majorGoal{
+    grid-area: majorGoal;
+    border-radius: 20px;
+    padding-left:5%;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+}
+#userFriendlyGoal{
+    grid-area: userFriendlyGoal;
+    border-radius: 20px;
+    padding:10%;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+}
+#easyToMaintainGoal{
+    grid-area:easyToMaintainGoal ;
+    border-radius: 20px;
+    padding:10%;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+}
+#differentiateGoal {
+    grid-area: differentiateGoal;
+    border-radius: 20px;
+    padding:10%;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+}
 
 /* Footer */
 footer {
