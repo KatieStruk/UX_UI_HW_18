@@ -17,6 +17,19 @@ a{font-family: 'Montserrat', sans-serif;
         margin:0px;
         height:100%;
     }
+ hr.sectionLine {
+    border:0;
+    height:1px;
+    background-color:black;
+    width:85%;
+    border-radius:100px;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+hr {
+    background-color:black;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
 
 /* Navigation */
 #navBar {
