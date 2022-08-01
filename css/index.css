@@ -9,9 +9,8 @@ p{font-family: 'Montserrat', sans-serif;
     font-size: 16px;}
 li {font-family: 'Montserrat', sans-serif;}
 a{font-family: 'Montserrat', sans-serif;
-    font-size: 16px;}
-
-
+    font-size: 16px;
+}
     body{
         background-color:white;
         margin:0px;
@@ -25,11 +24,11 @@ a{font-family: 'Montserrat', sans-serif;
     border-radius:100px;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-
 hr {
     background-color:black;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+
 
 /* Navigation */
 #navBar {
@@ -183,7 +182,6 @@ hr {
     grid-template-areas: 
     "meImage meText"
 }
-
 #meImage {
     grid-area:meImage;
 }
@@ -222,7 +220,19 @@ hr {
     border-radius:20px;
 }
 
+.skillsListGrid {
+    display:grid;
+    align-items:center;
+    justify-content: center;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:
+    "skillsList skillsList skillsList"
+}
 
+.skillsList {
+    grid-area:skillsList;
+    text-align: left;
+}
 
 
 /* Footer */
