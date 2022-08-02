@@ -28,7 +28,9 @@ hr {
     background-color:black;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-
+.indent {
+    margin:0px 5%;
+}
 
 /* Navigation */
 #navBar {
@@ -380,6 +382,101 @@ hr {
     border-radius: 20px;
     padding:10%;
     box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+}
+.painPointsGrid{
+    display:grid;
+    row-gap: 30px;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    grid-template-columns:1fr ;
+    grid-template-areas: 
+    "infoArch"
+    "unanswered"
+    "schedule"
+    "culture"
+}
+
+#infoArch{
+    grid-area:infoArch;
+    display:flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+    padding: 2%;
+}
+#unanswered{
+    grid-area:unanswered;
+    display:flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+    padding: 2%;
+}
+#schedule{
+    grid-area:schedule;
+    display:flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+    padding: 2%;
+}
+#culture{
+    grid-area:culture;
+    display:flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 10px 0px 15px 15px rgba(165, 165, 165, 0.24);
+    padding: 2%;
+}
+.painPointsGrid img {
+    height:200px;
+}
+.survey{
+    display:flex;
+    flex-direction:row;
+}
+.survey img{
+    height:400px;
+}
+.caseStudyImg2 {
+    width:100%;
+}
+#navTestingGrid {
+    display:grid;
+    grid-template-rows:1fr 1fr 50%;
+    grid-template-columns:25% 1fr;
+    grid-template-areas: 
+    "prediction predictionImg"
+    "unexpected unexpectedImg"
+    "solution solutionImg"
+}
+#prediction{
+    grid-area:prediction;
+}
+#predictionImg {
+    grid-area:predictionImg;
+}
+
+#unexpected{
+    grid-area:unexpected;
+}
+#unexpectedImg{
+    grid-area:unexpectedImg;
+}
+#solution{
+    grid-area:solution;
+}
+#solutionImg{
+    grid-area:solutionImg;
+}
+.navImageTest {
+    width:100%;
+}
+.conclusion {
+    display:flex;
+    flex-direction:row;
+    column-gap: 30px;
+    padding:20px;
+    
 }
 
 /* Footer */
