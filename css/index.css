@@ -60,12 +60,15 @@ hr {
     text-decoration:underline
 }
 .logo{
-    width:205px;
-    height:30px;
+    
     padding: 20px;
     text-align:center;
     cursor: pointer;
     margin:auto;
+}
+.logo2 {
+    width:205px;
+    height:30px;
 }
 #buttonTop {
     background-color:#FFA927;
@@ -87,6 +90,7 @@ hr {
     background-color:#E38D0B;
     cursor: pointer;
 }
+
 
 
 /* Body */
